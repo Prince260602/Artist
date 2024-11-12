@@ -14,7 +14,7 @@ dotenv.config();
 let dbConnection;
 
 let corsOptions = { withCredentials: true, credentials: true };
-const allowlist = ["http://localhost:5173","https://mentor.entrepreneurshipnetwork.net"];
+const allowlist = ["http://localhost:5173","https://artist-mu.vercel.app"];
 const corsOptionsDelegate = function (req, callback) {
   if (allowlist.indexOf(req.header("Origin")) !== -1) {
     corsOptions.origin = true;
