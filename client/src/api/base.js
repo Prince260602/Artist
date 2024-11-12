@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// const VITE_SERVER_BASEURL = "https://mentorsite-yxii.onrender.com/api/v1";
-const VITE_SERVER_BASEURL = "http://localhost:3001/api/v1";
+// const VITE_SERVER_BASEURL = "https://artist-42p2.onrender.com/api/v1";
+const VITE_SERVER_BASEURL = "https://artist-42p2.onrender.com/api/v1";
 
 const api = axios.create({
   headers: {
